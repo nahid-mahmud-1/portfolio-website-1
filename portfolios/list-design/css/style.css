@@ -1,0 +1,77 @@
+/* Global CSS */
+body{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+}
+.img-center{
+    margin: 0 auto;
+}
+.img-fit{
+    width: 100%;
+}
+
+/* Theme Main CSS */
+.todo-list-section{
+    padding: 120px 0px;
+    background: #016D9E;
+    height: 100vh;
+}
+.todo-list-box{
+    background: #fff;
+    box-shadow: 1px 1px 27px -7px #00000080;
+}
+.list-header{
+    padding: 18px;
+    background: #21B7FF;
+}
+.list-header h3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.list-main-content{
+    padding: 30px 20px;
+}
+.del-text{
+    color: #c3bdbd;
+}
+.list-main-content ul li{
+    font-size: 17px;
+    border-bottom: 1px solid #ddd;
+    line-height: 50px;
+}
+.list-main-content ul li::after{
+    content: "\f058";
+    font-family: fontawesome;
+    color: #808080a1;
+    float: right;
+}
+.list-main-content ul li.done::after{
+    color: #21B7FF;
+}
+.todo-list-dsc{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 30px;
+}
+.todo-list-dsc h1{
+    color: #fff;
+    font-size: 95px;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: 10px;
+}
+.todo-list-dsc p{
+    color: #fff;
+    font-size: 42px;
+    font-weight: 300;
+    letter-spacing: 10px;
+}

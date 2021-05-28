@@ -5,8 +5,379 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio Website</title>
+        <!-- Google Fonts Roboto -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+        <!-- FontAwesome CSS File -->
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <!-- Reset CSS File -->
+        <link rel="stylesheet" type="text/css" href="css/reset-css.css">
+        <!-- Grid System CSS File -->
+        <link rel="stylesheet" type="text/css" href="css/grid-system.css">
+        <!-- Theme Main CSS File -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
-        <h1>Hello World</h1>
+        <!-- Header Section Start -->
+        <header class="main-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="branding">
+                            <h3>Logo</h3>
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <nav class="main-menu">
+                            <ul>
+                                <li><a href="#hero" class="active">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#portfolio">Portfolio</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header Section End -->
+
+
+        <!-- Hero Section Start -->
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <div class="row section-bg">
+                    <div class="col-3">
+                        <div class="card" style="margin-left: -10px;">
+                            <img src="img/profile-picture.png" class="img-fit" alt="Team Member">
+                            <div class="card-dsc">
+                                <h4>Nahid Mahmud</h4>
+                                <p>Web Developer</p>
+                                <!-- Social Icons -->
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-google" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- test end -->
+                    </div>
+                    <div class="col-9">
+                        <div class="profile-dsc">
+                            <h4>Hi There !</h4>
+                            <h2>I'm a <span>Fullstack Developer</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos culpa, quis ratione inventore ex recusandae aliquid veritatis, neque quas quia animi! Architecto exercitationem aliquam qui aut tenetur labore. Eum, commodi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam repellendus, eos dolores nam nulla esse, sed vel impedit odio, officia in accusantium quod voluptate! Nisi temporibus dignissimos blanditiis possimus maiores</p>
+                            <!-- Profile Button -->
+                            <a href="#" class="profile-dsc-btn">Download CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hero Section End -->
+
+
+        <!-- About Section Start -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="row section-bg about-bg">
+                    <div class="col-6">
+                        <!-- Education Info -->
+                        <div class="education-box">
+                            <h3>Education:</h3>
+                            <div class="education-box-item">
+                                <h6>2008 <span>[University of Studies]</span></h6>
+                                <h4>Frontend Development</h4>
+                                <p>Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis ante.</p>  
+                            </div>
+                            <div class="education-box-item">
+                                <h6>2007 <span>[University of Studies]</span></h6>
+                                <h4>Graphic Design</h4>
+                                <p>Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis ante.</p>
+                            </div>
+                        </div>
+                        <!-- Experience Info -->
+                        <div class="education-box experience-box">
+                            <h3>Experience:</h3>
+                            <div class="education-box-item">
+                                <h6>2016 - Current <span>[Microsoft]</span></h6>
+                                <h4>Senior Web Developer</h4>
+                                <p>Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis ante.</p>  
+                            </div>
+                            <div class="education-box-item">
+                                <h6>2013 - 2016 <span>[Google]</span></h6>
+                                <h4>Senior Web Designer</h4>
+                                <p>Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis ante.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <!-- Skill Info -->
+                            <!-- Coding Skill -->
+                        <div class="skill-box">
+                            <h3>Coding Skills:</h3>
+                            <div class="skill-box-item">
+                                <!-- Html bar -->
+                                <label class="skill-title">HTML</label>
+                                <div class="skill-bar">
+                                    <div class="skill-bar-counter html-bar"></div>
+                                </div>
+                                <!-- CSS bar -->
+                                <label class="skill-title">CSS</label>
+                                <div class="skill-bar">
+                                    <div class="skill-bar-counter css-bar"></div>
+                                </div>
+                                <!-- Js bar -->
+                                <label class="skill-title">Javascript</label>
+                                <div class="skill-bar">
+                                    <div class="skill-bar-counter js-bar"></div>
+                                </div>
+                                <!-- PHP bar -->
+                                <label class="skill-title">PHP</label>
+                                <div class="skill-bar">
+                                    <div class="skill-bar-counter php-bar"></div>
+                                </div>
+                            </div>
+                        </div>
+                            <!-- Design Skill -->
+                        <div class="skill-box design-skill-box">
+                            <h3>Design Skills:</h3>
+                            <div class="skill-box-item">
+                                <!-- Html bar -->
+                                <label class="skill-title">Web Design</label>
+                                <div class="skill-bar">
+                                    <div class="skill-bar-counter web-design-bar"></div>
+                                </div>
+                                <!-- CSS bar -->
+                                <label class="skill-title">Print Design</label>
+                                <div class="skill-bar">
+                                    <div class="skill-bar-counter print-design"></div>
+                                </div>
+                                <!-- Js bar -->
+                                <label class="skill-title">Print Design</label>
+                                <div class="skill-bar">
+                                    <div class="skill-bar-counter graphic-design-bar"></div>
+                                </div>
+                                <!-- PHP bar -->
+                                <label class="skill-title">Logo Design</label>
+                                <div class="skill-bar">
+                                    <div class="skill-bar-counter logo-bar"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section End -->
+
+
+        <!-- Portfolio Section Start -->
+        <section id="portfolio" class="portfolio-section">
+            <div class="container">
+                <div class="row section-bg portfolio-bg">
+                    <!-- Portfolio One -->
+                    <div class="col-4">
+                        <div class="port-img-box">
+                            <img src="img/portfolio-wesite.png" class="img-fit" alt="Portfolio">
+                            <!-- Hover -->
+                            <a href="index.html">
+                                <div class="hover-effect">
+                                    <div class="hover-effect-dsc">
+                                        <h5>Portfolio Website</h5>
+                                        <p>HTML & CSS</p>
+                                    </div>
+                                </div>
+                            </a>   
+                        </div>
+                    </div>
+                    <!-- Portfolio Two -->
+                    <div class="col-4">
+                        <div class="port-img-box">
+                            <img src="img/card-design.png" class="img-fit" alt="Portfolio">
+                            <!-- Hover -->
+                            <a href="portfolios/card-design/card-dsign.html">
+                                <div class="hover-effect">
+                                    <div class="hover-effect-dsc">
+                                        <h5>Card Design</h5>
+                                        <p>HTML & CSS</p>
+                                    </div>
+                                </div>
+                            </a>   
+                        </div>
+                    </div>
+                    <!-- Portfolio Three -->
+                    <div class="col-4">
+                        <div class="port-img-box">
+                            <img src="img/list-design.png" class="img-fit" alt="Portfolio">
+                            <!-- Hover -->
+                            <a href="portfolios/list-design/list-design.html">
+                                <div class="hover-effect">
+                                    <div class="hover-effect-dsc">
+                                        <h5>List Design</h5>
+                                        <p>HTML & CSS</p>
+                                    </div>
+                                </div>
+                            </a>   
+                        </div>
+                    </div>
+                    <!-- Portfolio Four -->
+                    <div class="col-4 port-item-space">
+                        <div class="port-img-box">
+                            <img src="img/form-design.png" class="img-fit" alt="Portfolio">
+                            <!-- Hover -->
+                            <a href="portfolios/form-design/form-design.html">
+                                <div class="hover-effect">
+                                    <div class="hover-effect-dsc">
+                                        <h5>Form Design</h5>
+                                        <p>HTML & CSS</p>
+                                    </div>
+                                </div>
+                            </a>   
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Five -->
+                    <div class="col-4 port-item-space">
+                        <div class="port-img-box">
+                            <img src="img/box-model.png" class="img-fit" alt="Portfolio">
+                            <!-- Hover -->
+                            <a href="portfolios/css-box-model/box-model.html">
+                                <div class="hover-effect">
+                                    <div class="hover-effect-dsc">
+                                        <h5>Box Model</h5>
+                                        <p>HTML & CSS</p>
+                                    </div>
+                                </div>
+                            </a>   
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Six -->
+                    <div class="col-4 port-item-space">
+                        <div class="port-img-box">
+                            <img src="img/portfolio-wesite.png" class="img-fit" alt="Portfolio">
+                            <!-- Hover -->
+                            <a href="index.html">
+                                <div class="hover-effect">
+                                    <div class="hover-effect-dsc">
+                                        <h5>Navigation Design</h5>
+                                        <p>HTML & CSS</p>
+                                    </div>
+                                </div>
+                            </a>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Section End -->
+
+
+        <!-- Contact Section Start -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="row section-bg contact-bg">
+                    <!-- Contact Info -->
+                    <div class="col-5">
+                        <div class="row">
+                            <div class="col-6">
+                                <!-- location -->
+                                <div class="contact-info-box">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    <h4>Location</h4>
+                                    <p>Dhaka, Bangladesh</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                 <!-- location -->
+                                <div class="contact-info-box">
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                    <h4>Phone</h4>
+                                    <p>415-832-2000</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                 <!-- location -->
+                                <div class="contact-info-box">
+                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                    <h4>Email</h4>
+                                    <p>example@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <!-- location -->
+                               <div class="contact-info-box">
+                                   <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                                   <h4>Freelance</h4>
+                                   <p>Freelance Available</p>
+                               </div>
+                           </div>    
+                        </div>
+                    </div>
+                    <!-- Contact Form -->
+                    <div class="col-7">
+                        <div class="contact-form-box">
+                            <form action="">
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" placeholder="Name" required="required" name="name" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" placeholder="Email" name="email" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="messsage">Message</label>
+                                    <textarea name="message" placeholder="Message.." id="myform" cols="30" rows="10" class="form-control"></textarea>
+                                </div>
+                                <button type="submit" class="form-btn">Send</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section End -->
+
+        
+        <!-- Footer Section Start -->
+        <footer class="footer-section">
+            <div class="container">
+                <div class="row">
+                    <div class="co-12">
+                        <p>© 2020 All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer Section End -->
+
+        
+        <!-- JS/JQ Laibrary -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Smooth Scrolling JS -->
+        <script type="text/javascript" src="js/smoothscroll.js"></script>
+        <!-- Theme Main JS File -->
+        <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>

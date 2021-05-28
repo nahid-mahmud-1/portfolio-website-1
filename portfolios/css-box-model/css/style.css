@@ -1,0 +1,17 @@
+/* Global CSS */
+
+/* Theme Main CSS */
+.box-model-section{
+    padding: 100px 0px;
+    height: 100vh;
+}
+.box-model{
+    width: 500px;
+    height: 300px;
+    border: 20px solid #000;
+    background: #ddd;
+    padding: 50px;
+    box-sizing: border-box;
+    margin: 100px;
+    margin: 0 auto;
+}

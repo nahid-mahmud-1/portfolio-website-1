@@ -1,0 +1,339 @@
+/* Global CSS */
+body{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Open Sans', sans-serif;
+}
+p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.img-center{
+    display: block;
+    margin: 0 auto;
+}
+.img-fit{
+    width: 100%;
+}
+
+/* Theme Main CSS */
+/* Header Section CSS */
+.main-header{
+    background: #212121;
+    padding: 20px 0px;
+}
+.branding h3{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+.main-menu{
+    text-align: right;
+}
+.main-menu ul li{
+    display: inline-block;
+}
+.main-menu ul li a{
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: 30px;
+    line-height: 25px;
+    display: block;
+    transition: 0.3s ease-in-out;
+}
+.main-menu ul li a:hover{
+    color: #21B7FF;
+}
+.main-menu .active{
+    color: #21B7FF;
+}
+
+/* Hero Section CSS */
+.hero-section, .about-section,
+.portfolio-section, .contact-section{
+    padding: 30px 0px;
+}
+.section-bg{
+    background: #EFEFEE;
+    border: 2px solid #21B7FF;
+    position: relative;
+}
+.hero-section .card{
+    border: 2px solid #21B7FF;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+.hero-section  .card-dsc{
+    padding: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+.hero-section .card-dsc h4{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+.hero-section ul{
+    list-style: none;
+    padding: 10px 0px;
+}
+.hero-section ul li{
+    display: inline-block;
+} 
+.hero-section ul li a{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #21b7ff;
+    border: 1px solid #21b7ff;
+    border-radius: 50px;
+    display: block;
+    transition: 0.3s ease;
+}
+.hero-section ul li a:hover{
+    color: #fff;
+    background: #21b7ff;
+}
+.profile-dsc{
+    padding: 40px 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.profile-dsc h4{
+    font-size: 20px;
+    line-height: 1.7;
+    text-transform: uppercase;
+}
+.profile-dsc h2{
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+.profile-dsc span{
+    color: #21B7FF;
+}
+.profile-dsc p{
+    font-size: 17px;
+    line-height: 28px;
+    padding: 10px 15px 10px 0px;
+    text-align: justify;
+}
+.profile-dsc-btn{
+    color: #fff;
+    background: #21B7FF;
+    padding: 13px 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #21B7FF;
+    border-radius: 50px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+}
+.profile-dsc-btn:hover{
+    background: #21b7ffeb;
+}
+
+/* About Section CSS */
+.about-section{
+    padding-top: 0px;
+}
+.about-bg{
+    padding:20px 0px;
+}
+.education-box, .skill-box{
+    padding: 20px;
+}
+.experience-box{
+    padding-top: 0px;
+}
+.education-box h3,
+.skill-box h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.education-box-item, 
+.skill-box-item{
+    padding: 10px;
+    border: 1px solid #dad1d1;
+    margin: 2% 0%;
+}
+.education-box-item h6{
+    color: #21b7ff;
+}
+.education-box-item span{
+    color: #d4cdcd;
+    font-size: 15px;
+}
+.education-box-item h4{
+    font-weight: 600;
+    padding: 10px 0px;
+}
+.education-box-item p{
+    line-height: 25px;
+}
+.skill-box-item .skill-title{
+    font-size: 15px;
+}
+.skill-box-item .skill-bar{
+    width: 100%;
+    border: 1px solid #21b7ff;
+    border-radius: 50px;
+    margin: 8px 0px 15px;
+}
+.skill-box-item .skill-bar-counter{
+    height: 5px;
+    background: #21b7ff;
+    border: 1px solid #21b7ff;
+    border-radius: 50px;
+    margin: 2px;
+}
+.html-bar,
+.web-design-bar{
+    width: 95%;
+}
+.css-bar,
+.graphic-design-bar{
+    width: 90%;
+}
+.js-bar,
+.logo-bar{
+    width: 80%;
+}
+.php-bar{
+    width: 85%;
+}
+.print-design{
+    width: 65%;
+}
+.design-skill-box{
+    padding-top: 0px;
+}
+
+/* Portfolio Section CSS */
+.portfolio-section{
+    padding-top: 0px;
+}
+.portfolio-bg{
+    padding:20px 0px;
+}
+.port-img-box{
+    position: relative;
+}
+.portfolio-section .hover-effect{
+   /* position: absolute;
+    width: 45%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(33, 183, 255, .9);
+    transition: 0.3s ease-in-out;*/
+    position: absolute;
+    width: 100%;
+    height: 35%;
+    bottom: 0;
+    left: 0;
+    background: rgba(33, 183, 255, .9);
+    transition: 0.3s ease-in-out;
+}
+.portfolio-section .hover-effect-dsc{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 15px;
+    line-height: 25px;
+}
+.portfolio-section .hover-effect-dsc h5{
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+}
+.portfolio-section .hover-effect-dsc p{
+    color: #fff;
+    text-align: center;
+}
+
+.portfolio-section .port-img-box:hover .hover-effect{
+    height: 100%;
+    background: rgba(33, 183, 255, .7);
+    cursor: pointer;
+}
+.port-item-space{
+    padding-top: 20px;
+}
+
+/* Contact Section CSS */
+.contact-section{
+    padding-top: 0px;
+}
+.contact-bg{
+    padding: 50px 20px;
+}
+.contact-info-box{
+    padding: 10px;
+    border: 1px solid #dad1d1;
+    margin: 10px 0px;
+    padding: 35px 20px;
+}
+.contact-info-box i{
+    color: #21b7ff;
+    font-size: 30px;
+    padding: 0px 0px 10px;
+}
+.contact-info-box h4{
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0px 0px 10px;
+}
+.contact-info-box p{
+    color: #6d6464;
+    font-size: 15px;
+}
+/*.contact-form-box{
+
+}
+.form-group{
+
+}*/
+#myform{
+    height: 100px;
+    padding-top: 10px;
+}
+.form-control{
+    width: 100%;
+    height: 40px;
+    padding: 0px 10px;
+    border: 1px solid #dddd;
+    margin: 8px 0px 15px;
+}
+.form-btn{
+    color: #fff;
+    background: #21b7ff;
+    border: 1px solid #21b7ff;
+    padding: 10px 30px;
+    width: 100%;
+}
+.form-btn:hover{
+    background: #21b7ff;
+    cursor: pointer;
+}
+
+/* Footer Section CSS */
+.footer-section{
+    padding: 20px 0px;
+    background: #000;
+}
+.footer-section p{
+    color: #21B7FF;
+    font-size: 14px;
+    text-align: center;
+}

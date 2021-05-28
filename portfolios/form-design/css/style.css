@@ -1,0 +1,72 @@
+/* Global CSS */
+body{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+}
+.img-center{
+    margin: 0 auto;
+}
+.img-fit{
+    width: 100%;
+}
+
+/* Theme Main CSS */
+/* Form Design CSs */
+.form-section{
+    padding: 50px 0px;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: linear-gradient(90deg,#FB7099, #FEE040)
+}
+.form-design{
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.img-cotainer{
+    width: 40%;
+    background: url(../img/form-img.jpg) no-repeat center;
+    background-size: cover;
+    margin: 15px 0px;
+    border-radius: 10px 0px 0px 10px;
+    
+}
+.img-cotainer h3{
+    color: #fff;
+    font-size: 24px;
+    padding: 20px;
+    background: #21b7ff94;
+    border-radius: 10px 0px 0px 0px;
+}
+.form-container{
+    width: 60%;
+    background: #fff;
+    padding: 40px;
+}
+.form-group{
+    width: 100%;
+}
+.form-control{
+    width: 100%;
+    height: 40px;
+    padding: 0px 8px;
+    margin: 12px 0px;
+}
+.signup-btn{
+    width: 100%;
+    color: #fff;
+    background: #21B7FF;
+    border: 1px solid #21B7FF;
+    padding: 15px 40px;
+    cursor: pointer;
+}
